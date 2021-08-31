@@ -1,0 +1,117 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+section, article
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav>p
+{
+    font-size: 16px;
+    margin: 0;
+    padding: 10px;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#pUser
+{
+    color: gray;
+    font-weight:600;
+}
+
+
+nav
+{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 5px gray;
+}
+
+main
+{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+button
+{
+    background-color: #33cc99;
+    border-radius: 5px;
+    border-style: none;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+section>button
+{
+    width: 110px;
+    height: 35px;
+}
+
+label
+{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#inputSection
+{
+    margin-bottom: 100px;
+}
+
+#inputSection>input
+{
+    border-radius: 5px;
+    border-width: thin;
+}
+
+#inputContent
+{
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+}
+
+#inputSection>button
+{
+    float: right;
+    margin-top: 10px;
+}
+
+#articleSection
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#articleSection>article
+{
+    box-shadow: 1px 1px 5px teal;
+    margin: 20px;
+    padding: 30px;
+    max-width: 350px;
+}
+
+#articleSection>article>button
+{
+    float: right;
+}
+
+#inputTitle
+{
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
